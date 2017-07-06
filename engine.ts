@@ -7,7 +7,7 @@ app.get('/', (req,res)=>{
     var gymid = req.params.get("id");
     var gymlat = req.params.get("lat");
     var gymlng = req.params.get("lng");
-    var resp = ScanGym("ThatsAHumanThere", "Frelo25$", "hsjdgjvksdnmgvksdmgsdg", gymid, gymlat, gymlng);
+    var resp = ScanGym("username", "password", "hsjdgjvksdnmgvksdmgsdg", gymid, gymlat, gymlng);
     res.json(resp);
 });
 
