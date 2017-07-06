@@ -1,0 +1,15 @@
+{
+  "name": "raid-engine",
+  "version": "1.0.0",
+  "description": "Lightweight webserver allowing scanning of Pokemon GO Gym Raids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ibuckshot5",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pogobuf-vnext": "git+https://github.com/pogosandbox/pogobuf.git"
+  }
+}
